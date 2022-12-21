@@ -30,7 +30,7 @@ $ npm run start:dev
 OR, create (and start) the app (in `myNestApp` folder):
 
 ```bash
-$ sj-plz myNestApp
+$ sj-plz myNestApp OR prodify myNestApp
 $ cd myNestApp
 $ npm run start:dev
 ```
