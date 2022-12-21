@@ -1,0 +1,49 @@
+{
+  "name": "prodify-s",
+  "version": "1.0.0",
+  "description": "Nest App generator with sql and socket and TCP integration",
+  "main": "serve/cmd.js",
+  "scripts": {},
+  "bin": {
+    "exp": "serve/cmd.js",
+    "express-draft": "serve/cmd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sj3777/prodify-s.git"
+  },
+  "files": [
+    "LICENSE",
+    "serve/",
+    "prototype/"
+  ],
+  "type": "module",
+  "keywords": [
+    "express",
+    "framework",
+    "prodify",
+    "nest api scaffolding",
+    "sinatra",
+    "web",
+    "rest",
+    "restful",
+    "router",
+    "app",
+    "api"
+  ],
+  "preferGlobal": true,
+  "author": "Sudhakar Jha <sudhakarjha819@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sj3777/prodify-s/issues"
+  },
+  "homepage": "https://github.com/Sj3777/prodify-s",
+  "dependencies": {
+    "boxen": "^7.0.0",
+    "chalk": "^5.2.0",
+    "figlet": "^1.5.2",
+    "fs-extra": "^11.1.0",
+    "log-symbols": "^5.1.0",
+    "ora": "^6.1.2"
+  }
+}
