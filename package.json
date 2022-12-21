@@ -1,12 +1,12 @@
 {
-  "name": "prodify-s",
+  "name": "@sj/prodify-s",
   "version": "1.0.0",
   "description": "Nest App generator with sql and socket and TCP integration",
   "main": "serve/cmd.js",
   "scripts": {},
   "bin": {
-    "exp": "serve/cmd.js",
-    "express-draft": "serve/cmd.js"
+    "sj-plz": "serve/cmd.js",
+    "prodify": "serve/cmd.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
   ],
   "type": "module",
   "keywords": [
-    "express",
+    "nest",
     "framework",
     "prodify",
     "nest api scaffolding",
