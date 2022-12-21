@@ -89,10 +89,10 @@ This is how easy it is to get going.
 
 ## What dependencies it installs ?
 
-- **express** - nest framework
+- **rxjs** - nest reactive programming using observable 
 - **dotenv** - for env variables
-- **http-errors** - to create http errors
-- **nodemon** (dev) - monitors changes in files
+- **mysql2** - to create mysql db connection
+- **nest** (dev) - contains all neccessary import files of nest
 
 ## Command Line Options
 
