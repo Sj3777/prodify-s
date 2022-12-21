@@ -4,7 +4,7 @@
   "description": "Nest App generator with sql and socket and TCP integration",
   "main": "serve/cmd.js",
   "scripts": {},
-  "bin": {
+  "serve": {
     "sj-plz": "serve/cmd.js",
     "prodify": "serve/cmd.js"
   },
