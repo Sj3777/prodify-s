@@ -240,7 +240,7 @@ function done() {
   console.log("🔥 Happy Nesting 🌈");
   console.log("🤩 Thanks me later! 🎀");
   console.log(
-    boxen(chalk.bgYellowBright("Sinning off --- > SJ"), {
+    boxen(chalk.bgGreenBright("Sinning off --- > SJ"), {
       borderColor: "cyan",
       borderStyle: "classic",
       align: "left",
