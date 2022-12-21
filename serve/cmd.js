@@ -163,9 +163,9 @@ function cloneFiles() {
       await fs.copyFile(_c_lint, _t_lint);
 
       //git-ignore
-      // const _c_ig = path.join(__dirname, "..", "prototype", ".gitignore");
-      // const _t_ig = path.join(_t_dict, ".gitignore");
-      // await fs.copyFile(_c_ig, _t_ig);
+      const _c_ig = path.join(__dirname, "..", "prototype", ".gitignore");
+      const _t_ig = path.join(_t_dict, ".gitignore");
+      await fs.copyFile(_c_ig, _t_ig);
 
       //prettier
       const _c_ptr = path.join(__dirname, "..", "prototype", ".prettierrc");

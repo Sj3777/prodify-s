@@ -1,6 +1,6 @@
 {
   "name": "prodify-s",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Nest App generator with sql and socket and TCP integration",
   "main": "serve/cmd.js",
   "scripts": {},
