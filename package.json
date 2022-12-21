@@ -1,5 +1,5 @@
 {
-  "name": "@sj/prodify-s",
+  "name": "prodify-s",
   "version": "1.0.0",
   "description": "Nest App generator with sql and socket and TCP integration",
   "main": "serve/cmd.js",

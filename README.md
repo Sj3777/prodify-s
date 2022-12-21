@@ -23,7 +23,7 @@ The quickest way to get started with nestjs is to utilize the executable `prodif
 Create (and start) the app in current folder:
 
 ```bash
-$ exp .
+$ nest start .
 $ npm run start:dev
 ```
 

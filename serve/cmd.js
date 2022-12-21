@@ -114,12 +114,12 @@ var cloneFolder = () => {
     // To copy a folder or file, select overwrite accordingly
     try {
       // src folder
-      const _c_src = path.join("..", "prototype", "src");
+      const _c_src = path.join(__dirname, "..", "prototype", "src");
       const _t_src = path.join(_t_dict, "src");
       fs.copySync(_c_src, _t_src, { overwrite: true | false });
 
       // test
-      const _c_test = path.join("..", "prototype", "test");
+      const _c_test = path.join(__dirname, "..", "prototype", "test");
       const _t_test = path.join(_t_dict, "test");
       fs.copySync(_c_test, _t_test, { overwrite: true | false });
 
@@ -137,41 +137,41 @@ function cloneFiles() {
     const _spin_it = ora("Building files ...").start();
     try {
       //tsconfig file
-      const _c_ts = path.join("..", "prototype", "tsconfig.json");
+      const _c_ts = path.join(__dirname, "..", "prototype", "tsconfig.json");
       const _t_ts = path.join(_t_dict, "tsconfig.json");
       await fs.copyFile(_c_ts, _t_ts);
 
       //tsconfig.build
-      const _c_tb = path.join("..", "prototype", "tsconfig.build.json");
+      const _c_tb = path.join(__dirname, "..", "prototype", "tsconfig.build.json");
       const _t_tb = path.join(_t_dict, "tsconfig.build.json");
       await fs.copyFile(_c_tb, _t_tb);
 
       //nest-cli
-      const _c_cl = path.join("..", "prototype", "nest-cli.json");
+      const _c_cl = path.join(__dirname, "..", "prototype", "nest-cli.json");
       const _t_cl = path.join(_t_dict, "nest-cli.json");
       await fs.copyFile(_c_cl, _t_cl);
 
       //es-lint
-      const _c_lint = path.join("..", "prototype", ".eslintrc.js");
+      const _c_lint = path.join(__dirname, "..", "prototype", ".eslintrc.js");
       const _t_lint = path.join(_t_dict, ".eslintrc.js");
       await fs.copyFile(_c_lint, _t_lint);
 
       //git-ignore
-      const _c_ig = path.join("..", "prototype", ".gitignore");
+      const _c_ig = path.join(__dirname, "..", "prototype", ".gitignore");
       const _t_ig = path.join(_t_dict, ".gitignore");
       await fs.copyFile(_c_ig, _t_ig);
 
       //prettier
-      const _c_ptr = path.join("..", "prototype", ".prettierrc");
+      const _c_ptr = path.join(__dirname, "..", "prototype", ".prettierrc");
       const _t_ptr = path.join(_t_dict, ".prettierrc");
       await fs.copyFile(_c_ptr, _t_ptr);
 
       //env's
-      const _c_d_env = path.join("..", "prototype", "dev.env");
+      const _c_d_env = path.join(__dirname, "..", "prototype", "dev.env");
       const _t_d_env = path.join(_t_dict, "dev.env");
       await fs.copyFile(_c_d_env, _t_d_env);
 
-      const _c__env = path.join("..", "prototype", "local.env");
+      const _c__env = path.join(__dirname, "..", "prototype", "local.env");
       const _t__env = path.join(_t_dict, ".env");
       await fs.copyFile(_c__env, _t__env);
 
@@ -188,7 +188,7 @@ function alterPackageFile() {
   return new Promise(async (resolve, reject) => {
     const _spin_it = ora("Bootstraping script file ...").start();
     try {
-      const _c__pkg = path.join("..", "prototype", "package.json");
+      const _c__pkg = path.join(__dirname, "..", "prototype", "package.json");
       const _t__pkg = path.join(_t_dict, "package.json");
       await fs.copyFile(_c__pkg, _t__pkg);
       const _p_Src = path.join(_t_dict, "package.json");
