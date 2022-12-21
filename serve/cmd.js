@@ -11,6 +11,12 @@ import logSymbols from "log-symbols";
 import ora from "ora";
 // const boxen = require('boxen')
 import boxen from "boxen";
+import {fileURLToPath} from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+
+const __dirname = path.dirname(__filename);
+// console.log('directory-name 👉️', __dirname);
 
 const _f_nm = process.argv.slice(2);
 const _s_t = new Date().getTime();
