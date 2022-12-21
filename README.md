@@ -81,7 +81,7 @@ This will basically create this structure in your folder
 
 This is how easy it is to get going.
 
-## A picture is worth a thousand words.
+<!-- ## A picture is worth a thousand words. -->
 
 <!-- <p align='center'>
 <img src='https://raw.githubusercontent.com/sj3777/master/SCREENCAST.svg' width='600' alt='express-draft'>
